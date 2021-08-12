@@ -1,1 +1,1 @@
-web: sh setup.sh && python view.py
+web gunicorn view:app --log-file=-
